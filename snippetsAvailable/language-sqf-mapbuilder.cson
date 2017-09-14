@@ -1,0 +1,5 @@
+".source.sqf":
+  "MapBuilder Header":
+    "prefix": "mapbuilder_header"
+    "body": "/*\n    Function:       MB_fnc_${1:[functionName]}\n    Author:         Adanteh\n    Description:    ${2:A Function That Does stuff}\n*/\n"
+    "description": "Function Header for Mapbuilder Mod."

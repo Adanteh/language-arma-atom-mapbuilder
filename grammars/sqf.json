@@ -1,0 +1,23 @@
+{
+  "scopeName": "source.arma.sqf.mb",
+  "name": "SQF [Mapbuilder]",
+  "fileTypes": [
+    "sqf"
+  ],
+  "patterns": [
+
+    {
+      "name": "support.constant.define",
+      "match": "MB_WINDOW_[A-Z_]*",
+      "end": "\\]|\\;|\n"
+    },
+    {
+      "name": "support.constant.define",
+      "match": "__[A-Z_]*",
+      "end": "\\]|\\;|\n"
+    },
+    {
+      "include": "source.sqf"
+    }
+  ]
+}

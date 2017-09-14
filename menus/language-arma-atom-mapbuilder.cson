@@ -1,0 +1,10 @@
+'menu': [{
+  label: 'Arma'
+  submenu: [
+    label: 'Mapbuilder',
+    submenu: [
+        { label: 'Toggle', command: 'language-arma-atom-mapbuilder:toggle' }
+        { label: 'Create Functionlist', command: 'language-arma-atom-mapbuilder:build-functionlist' }
+    ]
+  ]
+}]

@@ -1,0 +1,5 @@
+".source.sqf":
+  "Frontline Header":
+    "prefix": "header_frontline"
+    "body": "/*\n    Function:       FRL_${1:[module]}_fnc_${2:[functionName]}\n    Author:         ${3:Adanteh}\n    Description:    ${4:A Function That Does stuff}\n*/\n#include \"macros.hpp\"\n"
+    "description": "Function Header for Frontline A3 Mod."

@@ -1,0 +1,29 @@
+{
+  "scopeName": "source.arma.cfg.mb",
+  "name": "Arma Config [Mapbuilder]",
+  "fileTypes": [
+    "cfg",
+    "sqe",
+    "sqm",
+    "ext",
+    "cpp",
+    "hpp",
+    "h",
+    "inc"
+  ],
+  "patterns": [
+    {
+      "name": "support.constant.define",
+      "match": "MB_WINDOW_[A-Z_]*",
+      "end": "\\]|\\;|\n"
+    },
+    {
+      "name": "support.constant.define",
+      "match": "__[A-Z_]*",
+      "end": "\\]|\\;|\n"
+    },
+    {
+      "include": "source.arma.cfg"
+    }
+  ]
+}

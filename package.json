@@ -1,0 +1,22 @@
+{
+  "name": "language-arma-atom-mapbuilder",
+  "main": "index",
+  "version": "0.0.0",
+  "description": "Mapbuilder extension for Arma Language",
+  "keywords": [
+    "sqf",
+    "arma"
+  ],
+  "homepage": "http://map-builder.info",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adanteh/language-arma-mapbuilder.git"
+  },
+  "dependencies": {
+    "copy-newer": "^2.1.2"
+  }
+}
